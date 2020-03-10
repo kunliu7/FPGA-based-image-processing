@@ -1,1 +1,2 @@
 *.v linguist-language=verilog
+src/display_VGA/display_VGA.ip_user_files/* linguist-vendored
