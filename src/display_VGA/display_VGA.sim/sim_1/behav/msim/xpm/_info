@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/display_VGA/display_VGA.sim/sim_1/behav
+Pvcomponents
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+w1465086321
+R0
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd
+l0
+L11
+Vf]NlX92279ffVeVJnQ;[B3
+!s100 `EnA?^NgzY5dX^;7^ndUQ3
+OP;C;10.4c;61
+31
+!s110 1546493521
+!i10b 1
+!s108 1546493521.000000
+!s90 -64|-93|-work|xpm|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd|
+!s107 C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd|
+!i113 1
+o-93 -work xpm
+tExplicit 1

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jan 06 12:26:06 2019
+# Process ID: 8796
+# Current directory: D:/FPGA/display_VGA/display_VGA.runs/Uart_VGA_ram_synth_1
+# Command line: vivado.exe -log Uart_VGA_ram.vds -mode batch -messageDb vivado.pb -notrace -source Uart_VGA_ram.tcl
+# Log file: D:/FPGA/display_VGA/display_VGA.runs/Uart_VGA_ram_synth_1/Uart_VGA_ram.vds
+# Journal file: D:/FPGA/display_VGA/display_VGA.runs/Uart_VGA_ram_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Uart_VGA_ram.tcl -notrace

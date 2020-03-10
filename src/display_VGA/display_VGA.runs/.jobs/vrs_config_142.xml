@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="shift_ram_3x3_8bits_synth_1" LaunchDir="D:/FPGA/display_VGA/display_VGA.runs/shift_ram_3x3_8bits_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

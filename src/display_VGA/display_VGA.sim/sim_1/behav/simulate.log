@@ -1,0 +1,11 @@
+# do {three_fsm_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L xpm -lib xil_defaultlib xil_defaultlib.three_fsm_tb xil_defaultlib.glbl 
+# Start time: 13:32:29 on Jan 03,2019
+# Loading xil_defaultlib.three_fsm_tb
+# Loading xil_defaultlib.three_fsm
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 13:48:36 on Jan 03,2019, Elapsed time: 0:16:07
+# Errors: 0, Warnings: 0

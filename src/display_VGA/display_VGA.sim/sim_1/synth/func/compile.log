@@ -1,0 +1,28 @@
+# do {delay_nclk_yb_compile.do}
+# ** Error: Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Copying C:/modeltech_pe_10.4c/win32pe/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/modeltech_pe_10.4c/win32pe/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+#          MODELSIM set to C:/modeltech_pe_10.4c/win32pe/../modelsim.ini.
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Error in macro ./delay_nclk_yb_compile.do line 14
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Copying C:/modeltech_pe_10.4c/win32pe/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/modeltech_pe_10.4c/win32pe/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+#          MODELSIM set to C:/modeltech_pe_10.4c/win32pe/../modelsim.ini.
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+#     while executing
+# "exec <nul: {C:\modeltech_pe_10.4c\win32pe\vmap.EXE} xil_defaultlib msim/xil_defaultlib"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 47)
+#     invoked from within
+# "C:\\modeltech_pe_10.4c\\win32pe\\vmap xil_defaultlib msim/xil_defaultlib"

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Dec 18 12:43:22 2018
+# Process ID: 12656
+# Current directory: D:/FPGA/display_VGA/display_VGA.runs/shift_ram_3x3_8bits_synth_1
+# Command line: vivado.exe -log shift_ram_3x3_8bits.vds -mode batch -messageDb vivado.pb -notrace -source shift_ram_3x3_8bits.tcl
+# Log file: D:/FPGA/display_VGA/display_VGA.runs/shift_ram_3x3_8bits_synth_1/shift_ram_3x3_8bits.vds
+# Journal file: D:/FPGA/display_VGA/display_VGA.runs/shift_ram_3x3_8bits_synth_1\vivado.jou
+#-----------------------------------------------------------
+source shift_ram_3x3_8bits.tcl -notrace

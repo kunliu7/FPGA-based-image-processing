@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="shift_ram_3x3_8bits_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1545108201">
+  <File Type="RDS-PROPCONSTRS" Name="shift_ram_3x3_8bits_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="shift_ram_3x3_8bits.tcl"/>
+  <File Type="RDS-RDS" Name="shift_ram_3x3_8bits.vds"/>
+  <File Type="RDS-UTIL" Name="shift_ram_3x3_8bits_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="shift_ram_3x3_8bits_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="shift_ram_3x3_8bits.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="shift_ram_3x3_8bits_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="shift_ram_3x3_8bits_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/shift_ram_3x3_8bits">
+    <File Path="$PSRCDIR/sources_1/ip/shift_ram_3x3_8bits/shift_ram_3x3_8bits.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="shift_ram_3x3_8bits"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/shift_ram_3x3_8bits">
+    <File Path="$PSRCDIR/sources_1/ip/shift_ram_3x3_8bits/shift_ram_3x3_8bits.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="shift_ram_3x3_8bits"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

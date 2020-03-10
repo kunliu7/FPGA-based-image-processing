@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1546749051">
+  <File Type="OPT-DCP" Name="disp_VGA_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="disp_VGA_route_status.pb"/>
+  <File Type="PA-TCL" Name="disp_VGA.tcl"/>
+  <File Type="RDI-RDI" Name="disp_VGA.vdi"/>
+  <File Type="PWROPT-DRC" Name="disp_VGA_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="disp_VGA_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="disp_VGA_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="disp_VGA_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="disp_VGA_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="disp_VGA.hwdef"/>
+  <File Type="OPT-TIMING" Name="disp_VGA_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="disp_VGA_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="disp_VGA_placed.dcp"/>
+  <File Type="PLACE-IO" Name="disp_VGA_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="disp_VGA_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="disp_VGA_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="disp_VGA_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="disp_VGA_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="disp_VGA_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="disp_VGA_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="disp_VGA_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="disp_VGA_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="disp_VGA_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="disp_VGA_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="disp_VGA_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="disp_VGA_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="disp_VGA_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="disp_VGA_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="disp_VGA_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="disp_VGA_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="disp_VGA_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="disp_VGA.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="disp_VGA_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="disp_VGA_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="disp_VGA_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="disp_VGA_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="disp_VGA_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="disp_VGA_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="disp_VGA_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="disp_VGA_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="disp_VGA_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="disp_VGA_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="disp_VGA_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="disp_VGA_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="disp_VGA_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="disp_VGA_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="disp_VGA_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="disp_VGA.bin"/>
+  <File Type="BITSTR-MSK" Name="disp_VGA.msk"/>
+  <File Type="BITSTR-RBT" Name="disp_VGA.rbt"/>
+  <File Type="BITSTR-NKY" Name="disp_VGA.nky"/>
+  <File Type="BITSTR-BMM" Name="disp_VGA_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="disp_VGA.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="disp_VGA.sysdef"/>
+  <File Type="BG-BGN" Name="disp_VGA.bgn"/>
+  <File Type="BG-DRC" Name="disp_VGA.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/delay_nclk.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/compare.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RGB2Grey.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/headfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/three_fsm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sobel_edge_detect.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/median_filter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/erode.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dilate.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Uart_receiver_1byte.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_divider_precise.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/process_pic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/scan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/disp_VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Uart_receiver.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Uart_Rx.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Baud.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_ram.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_display.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Uart_transfer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Uart_no_sample_receiver.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/get_addr.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="c:/Users/Liukun/Desktop/CrazyBird.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="disp_VGA"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="shift_ram_3x3_1bit"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_VGA"/>
+  <BlockFileSet Type="BlockSrcs" Name="shift_ram_3x3_8bits"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_VGA_ram"/>
+</GenRun>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Jan 29 15:54:26 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="c59f21e4f19e424c9cc68d0ab5e645a7" type="ProjectID"/>
+<property name="ProjectIteration" value="145" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddCfgMem" value="4" type="JavaHandler"/>
+<property name="AddSources" value="39" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="39" type="JavaHandler"/>
+<property name="CloseTarget" value="1" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
+<property name="CustomizeCore" value="11" type="JavaHandler"/>
+<property name="DebugWizardCmdHandler" value="3" type="JavaHandler"/>
+<property name="EditConstraintSets" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditPaste" value="1" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="5" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="177" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="5" type="JavaHandler"/>
+<property name="MarkDebug" value="8" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenExample" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="220" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="77" type="JavaHandler"/>
+<property name="OpenTarget" value="1" type="JavaHandler"/>
+<property name="ProgramDevice" value="141" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="27" type="JavaHandler"/>
+<property name="ProjectSummary" value="1" type="JavaHandler"/>
+<property name="RecustomizeCore" value="21" type="JavaHandler"/>
+<property name="RefreshDevice" value="2" type="JavaHandler"/>
+<property name="RefreshServer" value="5" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="74" type="JavaHandler"/>
+<property name="RunBitgen" value="156" type="JavaHandler"/>
+<property name="RunSchematic" value="64" type="JavaHandler"/>
+<property name="RunSynthesis" value="230" type="JavaHandler"/>
+<property name="RunTrigger" value="4" type="JavaHandler"/>
+<property name="RunTriggerImmediate" value="7" type="JavaHandler"/>
+<property name="SaveDesign" value="15" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SetSourceEnabled" value="6" type="JavaHandler"/>
+<property name="ShowProductGuide" value="2" type="JavaHandler"/>
+<property name="ShowView" value="120" type="JavaHandler"/>
+<property name="SimulationRun" value="53" type="JavaHandler"/>
+<property name="StopTrigger" value="2" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="2" type="JavaHandler"/>
+<property name="ToolsOptions" value="4" type="JavaHandler"/>
+<property name="ToolsTemplates" value="2" type="JavaHandler"/>
+<property name="UnmarkDebug" value="4" type="JavaHandler"/>
+<property name="VerifyDevice" value="1" type="JavaHandler"/>
+<property name="ViewLayoutCmd" value="8" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="51" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="115" type="JavaHandler"/>
+<property name="XdcCreateClock" value="3" type="JavaHandler"/>
+<property name="XdcSetInputDelay" value="9" type="JavaHandler"/>
+<property name="XdcSetInputJitter" value="1" type="JavaHandler"/>
+<property name="XdcSetOutputDelay" value="7" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER, Project Manager" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_PROGRAM_FPGA, Program Device..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, disp_VGA (disp_VGA.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Open Target], 27, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager], 26, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, xc7a100t_0 (1" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FLOW, Flow" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="174" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="141" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
