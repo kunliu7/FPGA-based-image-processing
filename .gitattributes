@@ -1,2 +1,6 @@
 *.v linguist-language=verilog
 src/display_VGA/display_VGA.ip_user_files/* linguist-vendored
+src/display_VGA/display_VGA.cache/* linguist-vendored
+src/display_VGA/display_VGA.hw/* linguist-vendored
+src/display_VGA/display_VGA.runs/* linguist-vendored
+src/display_VGA/display_VGA.sim/* linguist-vendored
